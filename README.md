@@ -2,6 +2,15 @@
 
 These are list of Dockerfile for my public dockers.
 
+## Structures
+
+```
+|--docker-name
+    |---tags
+        |--Dockerfile
+        |--install.sh
+```
+
 ## Usage
 
 Install the docker application [here](https://docs.docker.com/engine/install/) then use these syntax on terminal/cmd for a few dockers.
