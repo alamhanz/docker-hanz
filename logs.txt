@@ -12,3 +12,13 @@ docker windows
 * you can do build with docker if the apps starts
 * docker clean up --> docker system prune
 * docker.io/library/python:3.7
+
+[2022-07-12]
+
+* install htop
+* fix docker windows shutdown - reinstall with admin access
+
+[2022-07-13]
+
+* install.sh problem
+* solved here --> https://forums.docker.com/t/install-sh-cannot-be-found/117879/2
