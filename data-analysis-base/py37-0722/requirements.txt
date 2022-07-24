@@ -10,3 +10,4 @@ statsmodels==0.13.2
 floweaver==2.0.0
 bokeh==2.4.3
 dask==2022.1.1
+shap==0.41.0
