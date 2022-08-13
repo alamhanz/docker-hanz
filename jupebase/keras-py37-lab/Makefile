@@ -4,4 +4,4 @@ push-prod:
 	docker push alamhanz/jupebase:keras-py37-lab
 
 run-jupe:
-	docker run --name jupebase-test -d -p 8889:8888 alamhanz/jupebase:keras-py37-lab
+	docker run --name jupeB -d -p 8889:8888 alamhanz/jupebase:keras-py37-lab
