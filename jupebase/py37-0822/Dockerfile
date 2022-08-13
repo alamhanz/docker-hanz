@@ -1,4 +1,4 @@
-FROM alamhanz/data-analysis-base:py37-0722
+FROM alamhanz/data-analysis-base:py37-0822
 COPY requirements.txt ./
 COPY install.sh ./
 RUN ./install.sh
