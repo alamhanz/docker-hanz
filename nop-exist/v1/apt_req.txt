@@ -1,0 +1,7 @@
+git
+vim
+build-essential
+curl
+wget
+libsnappy-dev
+htop

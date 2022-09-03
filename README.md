@@ -27,6 +27,13 @@ docker run alamhanz/data-analysis-base:<tags>
 docker run --name jupebase-test -d -p 8889:8888 alamhanz/jupebase:<tags>
 ```
 
+3. nop exist app
+
+```
+docker run --name nopv1 -d -p 8502:8501 alamhanz/nope-exist:<tags>
+```
+
+
 ## References
 
 Visit my docker hub [here](https://hub.docker.com/u/alamhanz)

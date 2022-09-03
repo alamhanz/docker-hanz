@@ -4,4 +4,4 @@ push-prod:
 	docker push alamhanz/jupebase:py37-0822
 
 run-docker:
-	docker run --name jupeB -d -p 8889:8888 alamhanz/jupebase:py37-0822
+	docker run --name jupeb -d -p 8889:8888 alamhanz/jupebase:py37-0822
