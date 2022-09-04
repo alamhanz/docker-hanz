@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Sep 03 17:22:16 2022
+# Make data base, printed on Sun Sep 04 15:34:31 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -39,7 +41,9 @@ MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1168_RDZTQBNVPTHJTUAF
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21224_BCEEASMMTTBCEJCH
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -93,7 +97,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 1168
+VSCODE_PID = 21224
 # environment
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1
 # automatic
@@ -213,9 +217,10 @@ SESSIONNAME = Console
 # environment
 PROCESSOR_REVISION = 6001
 # environment
-PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
+PROCESSOR_IDENTIFI 
+ER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=12/125=10%
+# Load=103/1024=10%, Rehash=0, Collisions=13/127=10%
 
 # Pattern-specific Variable Values
 
@@ -223,9 +228,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 96 Stepping 1, AuthenticAMD
 
 # Directories
 
-# . (key d:/projects/docker-hanz, mtime 1661945639): 8 files, no impossibilities.
+# . (key d:/projects/docker-hanz, mtime 1662200593): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -282,12 +287,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 15 / storage = 131 B / avg = 8 B
-# current buf: size = 8174 B / used = 131 B / count = 15 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 141 B / avg = 8 B
+# current buf: size = 8174 B / used = 141 B / count = 16 / avg = 8 B
 
-# strcache performance: lookups = 18 / hit rate = 16%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=15/8192=0%, Rehash=0, Collisions=0/18=0%
-# Finished Make data base on Sat Sep 03 17:22:16 2022
+# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
+# Finished Make data base on Sun Sep 04 15:34:31 2022
 
  
